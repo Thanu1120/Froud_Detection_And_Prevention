@@ -36,7 +36,7 @@ def is_transaction_abnormal(amount, model, threshold=100000):
 # Function to send verification email
 def send_verification_email(user_email):
     sender_email = "thanushreedevi2003@gmail.com"  # Replace with your email
-    password = "hbgq tmcl qviw qkom"  # Replace with your app-specific password or Gmail password
+    password = "************"  # Replace with your app-specific password or Gmail password
     receiver_email = user_email
     
     # Generate a unique verification link for each user
